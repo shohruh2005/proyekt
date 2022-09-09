@@ -5,6 +5,63 @@
   font-family: sans-serif;
 }
 
+.webisode {
+  background-color: #015239;
+}
+.webisode .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.webisode .navbar img {
+  margin-left: 40%;
+}
+.webisode .navbar .p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 28%;
+}
+.webisode .navbar .p p {
+  margin: 0 20px;
+}
+.webisode .navbar .p p:last-child {
+  background-color: #236B55;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.webisode .main {
+  width: 100%;
+  padding: 10% 0;
+  text-align: center;
+}
+.webisode .main h1 {
+  color: white;
+  font-size: 50px;
+}
+.webisode .main p {
+  color: gray;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.webisode .main button {
+  background-color: #734FE8;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 17px;
+}
+
+.main img {
+  width: 100%;
+}
+
 .listen {
   background-color: #E4FAEE;
   color: #113A2D;
